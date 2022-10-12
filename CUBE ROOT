@@ -1,0 +1,19 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	int cube,n;
+	cout<<" enter the positive number :";
+	cin>>n;
+	if (n>0)
+	{
+	  cube=cbrt(n);
+	  cout<< "cube root is: "<<cube;
+    }
+    else 
+    {
+    	cout <<"invalid";
+	}
+	return 0;
+}
